@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: rgb(242, 239, 234);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Montserrat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.card {
+    margin: 90px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 280px;
+    gap: 20px;
+    box-shadow: 0 5px 10px;
+
+}
+
+.mainImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px;
+    margin-top: -75px;
+    object-fit: cover;
+}
+
+.mainImage img:hover {
+    transform: translate3d(0, -5px, 0);
+    transition: transform 0.35s;
+}
+
+.name {
+    width: 250px;
+}
+
+.name h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: OpenSans;
+}
+
+.name h5 {
+    text-align: end;
+    color: green;
+}
+
+.movie {
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.movieImage img {
+    width: 90px;
+    height: 131px;
+}
+
+.aboutMovie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.star {
+    color: burlywood;
+}
+
+p {
+    color: gray;
+}
+
+.aboutMovie img {
+    height: 35px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.oscar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oscar img {
+    width: 70px;
+}
+
+.oscar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.oscar h4:nth-of-type(1) {
+    color: green;
+}
+
+.oscar h4:nth-of-type(2) {
+    color: gold;
+}
